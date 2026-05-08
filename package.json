@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Api yang dibuat untuk memenuhi tugas dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --watch . --ext js,json",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Rurin Nurhaliza",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0"
+  }
+}
